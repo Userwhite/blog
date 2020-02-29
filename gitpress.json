@@ -1,0 +1,31 @@
+{
+    "docs"        : {
+        "CSS3"       : "posts/css3",
+        "HTML5"      : "posts/html5",
+        "JavaScript" : "posts/javascript",
+        "其他"       : "posts/other",
+        "关于我"     : "posts/about"
+    },
+    "perpage"     : 10,
+    "template"    : "greyshade",
+    "types"       : {
+        "\\.(md||markdown)$"   : "markdown",
+        "\\.(js||css||json)$"  : "code",
+        "\\.html?$"            : "html",
+        ".*"                   : "text"
+    },
+    "title"       : "Animabear's Blog",
+    "comment"     : {"type": "duoshuo", "short_name": "animabear"},
+    "friends"  : [
+        {
+          "name"  : "github",
+          "title"  : "github",
+          "url"  : "http://github.com"
+        },
+        {
+          "name"  : "gitpress",
+          "title"  : "gitpress",
+          "url"  : "http://gitpress.org"
+        }
+    ]
+}
